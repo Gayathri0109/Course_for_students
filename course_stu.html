@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Enrollment System</title>
+    <link rel="stylesheet" href="course_stu.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Course Enrollment System</h1>
+        <div class="course-form">
+            <h2>Add Course</h2>
+            <input type="text" id="course-name" placeholder="Course Name">
+            <input type="text" id="course-code" placeholder="Course Code">
+            <button id="add-course-btn">Add Course</button>
+        </div>
+        <div class="student-form">
+            <h2>Enroll Student</h2>
+            <input type="text" id="student-name" placeholder="Student Name">
+            <select id="course-select"></select>
+            <button id="enroll-student-btn">Enroll Student</button>
+        </div>
+        <div class="course-list">
+            <h2>Courses</h2>
+            <ul id="course-list-ul"></ul>
+        </div>
+        <div class="student-list">
+            <h2>Enrolled Students</h2>
+            <ul id="student-list-ul"></ul>
+        </div>
+    </div>
+
+    <script src="course_stu.js"></script>
+</body>
+</html>
